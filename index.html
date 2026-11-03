@@ -175,7 +175,7 @@ sincronizarSiCorresponde();
  const form=document.getElementById('loginForm'),err=document.getElementById('loginError');
  form.addEventListener('submit',event=>{
   event.preventDefault();
-  if(document.getElementById('loginUser').value.trim()==='demo' && document.getElementById('loginPass').value==='Prueba2026!'){
+  if(document.getElementById('loginUser').value.trim()==='Ande' && document.getElementById('loginPass').value==='Ande2026'){
    err.textContent='';login.hidden=true;app.hidden=false;
   }else{err.textContent='Usuario o contraseña incorrectos.';}
  });
